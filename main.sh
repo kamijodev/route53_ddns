@@ -1,9 +1,11 @@
 #! /bin/bash
 
-source config.sh
+SCRIPT_DIR=$(dirname "$0")
 
-LOG_FILE=log.txt
-PREV_IP_FILE=prev_ip
+source "$SCRIPT_DIR/config.sh"
+
+LOG_FILE="$SCRIPT_DIR/log.txt"
+PREV_IP_FILE="$SCRIPT_DIR/prev_ip"
 CURRENT_IP=$(curl -s https://ifconfig.me)
 
 log () {
