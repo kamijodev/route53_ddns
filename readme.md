@@ -1,7 +1,10 @@
 <div align="center">
-<smap>
+<samp>
+  
   ## route53_ddns
 
-  route53の書き換えをcronで定期実行してDDNSっぽい動きさせるスクリプト
-</smap>
+  route53の書き換えを  
+  cronで定期実行して  
+  DDNSっぽい動きさせるスクリプト  
+</samp>
 </div>
